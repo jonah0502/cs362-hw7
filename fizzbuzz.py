@@ -1,2 +1,4 @@
 def fizzbuzz(val):
-    pass
+    if (val %3 ==0):
+        return "Fizz"
+    
