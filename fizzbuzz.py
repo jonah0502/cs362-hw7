@@ -5,3 +5,9 @@ def fizzbuzz(val):
         return "Fizz"
     elif (val %5 == 0):
         return "Buzz"
+    else:
+        return val
+
+def iterate():
+    for i in range(1, 101):
+        print(fizzbuzz(i))
