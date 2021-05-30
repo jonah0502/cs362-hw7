@@ -5,4 +5,3 @@ def fizzbuzz(val):
         return "Fizz"
     elif (val %5 == 0):
         return "Buzz"
-    
